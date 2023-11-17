@@ -13,3 +13,5 @@ Create a project to manage companies and their employees. Mini-CRM.
 - Use Laravel's validation function, using Request classes
 - Use Laravel's pagination for showing Companies/Employees list, 10 entries per page
 - Use Laravel's starter kit for auth and basic theme, but remove ability to register
+
+![Screenshot 2023-11-17 155121](https://github.com/ericknyoto/developer-test/assets/13531673/2ea548b6-9950-4853-b7a5-adbd75fbcbb6)
