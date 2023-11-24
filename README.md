@@ -2,16 +2,17 @@
 Create a project to manage companies and their employees. Mini-CRM.
 
 
-- Basic Laravel Auth: ability to log in as administrator
-- Use database seeds to create first user with email admin@admin.com and password "password"
+- Basic Laravel Auth: ability to log in as administrator.
+- Use database seeds to create first user with email admin@admin.com and password "password".
 - CRUD functionality (Create / Read / Update / Delete) for two menu items: Companies and Employees.
-- Companies DB table consists of these fields: Name (required), email, logo (minimum 100x100), website
-- Employees DB table consists of these fields: First name (required), last name (required), Company (foreign key to Companies), email, phone
-- Use database migrations to create those schemas above
-- Store companies logos in storage/app/public folder and make them accessible from public
+- Companies DB table consists of these fields: Name (required), email, logo (minimum 100x100), website.
+- Employees DB table consists of these fields: First name (required), last name (required), Company (foreign key to Companies), email, phone.
+- Use database migrations to create those schemas above.
+- Store companies logos in storage/app/public folder and make them accessible from public.
 - Use basic Laravel resource controllers with default methods - index, create, store etc.
-- Use Laravel's validation function, using Request classes
-- Use Laravel's pagination for showing Companies/Employees list, 10 entries per page
-- Use Laravel's starter kit for auth and basic theme, but remove ability to register
+- Use Laravel's validation function, using Request classes.
+- Use Laravel's pagination for showing Companies/Employees list, 10 entries per page.
+- Use Laravel's starter kit for auth and basic theme, but remove ability to register.
+- Create Feature test using Phpunit.
 
 ![Screenshot 2023-11-17 155121](https://github.com/ericknyoto/developer-test/assets/13531673/2ea548b6-9950-4853-b7a5-adbd75fbcbb6)
